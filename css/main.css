@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #54B575;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	width: 100%;
+	letter-spacing: .2em;
+}
+
+span {
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	font-weight: 300;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+p {
+	font-weight: 300;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	z-index: -99;
+
+	background-color: #54B575;
+	-webkit-animation: colors 9s linear infinite;
+	-moz-animation: colors 9s linear infinite;
+	-o-animation: colors 9s linear infinite;
+	-ms-animation: colors 9s linear infinite;
+	animation: colors 9s linear infinite;
+}
+
+.logo-cntr {
+	margin-top: 200px;
+	z-index: 99;
+}
+
+.circle {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.square {
+  margin: -50px auto;
+  width: 100px;
+  height: 30px;
+  background-color: grey;
+}
+
+.oval {
+  margin: 32px auto;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+
+@-webkit-keyframes colors {
+	10% {
+		background-color: #54B575;
+	}
+
+	20% {
+		background-color: #32B2A6;
+	}
+
+	50% {
+		background-color: #48a769;
+	}
+
+	70% {
+		background-color: #48a769;
+	}
+
+	90% {
+		background-color: #48a769;
+	}
+}
+
+.circle, .square, .oval {
+	background-color: #54B575;
+	-webkit-animation: colors 9s linear infinite;
+	-moz-animation: colors 9s linear infinite;
+	-o-animation: colors 9s linear infinite;
+	-ms-animation: colors 9s linear infinite;
+	animation: colors 9s linear infinite;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,.1);
+}
+
+ul {
+	padding: 10px;
+	text-align: right;
+}
+
+li {
+	font-size: 12px;
+	display: inline;
+	font-weight: 300;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	margin: 0 5px;
+}
